@@ -15,9 +15,9 @@ fc-cache -fv
 
 
 sudo apt-get install tmux
-mkdir -p ~/.config/tmux
-cp .config/tmux/.tmux.conf ~/.config/tmux/.tmux.conf
-sudo tmux source-file ~/.config/tmux/.tmux.conf
+
+cp .config/tmux/.tmux.conf ~/.tmux.conf
+sudo tmux source-file ~/.tmux.conf
 
 echo "Done! Grab some wallpaper and run pywal -i filename to set your color scheme. To have the wallpaper set on every boot edit ~.fehbg"
 echo "After reboot: Select i3 on login, run lxappearance and select arc-dark"
