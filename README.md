@@ -1,10 +1,11 @@
 # Kali-Clean
 
-Kali installation with a few extra programms. 
+Kali installation with a few extra programms / configurations. 
 
 If you want a clean i3 desktop installation you can take the [install_i3.sh](../blob/main/install_i3.sh) to have it.
+All the configs of alacritty and the i3 part is from [xct](https://github.com/xct)
 
-After cloning the repo just run ./install.sh from a non-root user. This updates kali and installs a lot of stuff, so it will take a while. Feel free to optimize ;)
+After cloning the repo just run ./install.sh from a non-root user. This updates kali and installs a lot of stuff, so it will take a while.
 
 
 ## Installation
