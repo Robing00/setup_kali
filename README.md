@@ -21,6 +21,7 @@ After the script has finished running, reboot your system and select i3 from the
 ## Additional Informations
 ### Tmux
 Inside the [tmux configuration file](../main/.config/tmux/.tmux.conf) there are a few changes to the normal installation like colors and keyboard shortcuts.
+**controls**
 The contoles are changed fro "ctrl+b" to "ctrl+a".
 Here is a little Cheatsheet for the most important controls:
 - C + a + % -> new pane
