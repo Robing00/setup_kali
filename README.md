@@ -17,3 +17,16 @@ To begin the installation, clone the repository and execute ./install.sh as a no
 
 
 After the script has finished running, reboot your system and select i3 from the top right corner of the login screen. Then, open a terminal using the shortcut ctrl+return, run the command lxappearance, and choose the ark-dark theme, and customize the icons as desired, such as using papyrus.
+
+## Additional Informations
+### Tmux
+Inside the [tmux configuration file](../main/.config/tmux/.tmux.conf) there are a few changes to the normal installation like colors and keyboard shortcuts.
+The contoles are changed fro "ctrl+b" to "ctrl+a".
+Here is a little Cheatsheet for the most important controls:
+- C + a + % -> new pane
+- C + a + "
+- C + a + o -> switch pane
+- C + a + c -> new tab 
+- C + a + 1,2,3,4,5 -> switch tab
+- C + a + , -> rename
+- C + a + & -> close window
