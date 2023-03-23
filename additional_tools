@@ -1,0 +1,25 @@
+vscode mit ilspy für reverse engineer oder ilspy selber
+
+ghidra
+
+obsidian
+
+sudo apt install xxd
+
+sudo apt install hexedit
+
+sudo apt install software-properties-common
+
+sudo apt install snapd
+
+systemctl start snapd
+
+systemctl enable --now snapd.apparmor
+
+sudo snap install radare2 --classic
+
+git clone https://github.com/radareorg/radare2
+radare2/sys/install.sh
+
+sudo apt install qttools5-dev qttools5-dev-tools qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5svg5-dev make pkg-config build-essential
+https://github.com/radareorg/iaito
