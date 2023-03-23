@@ -53,4 +53,3 @@ echo "After reboot: Select i3 on login, run lxappearance and select arc-dark"
 #cp .config/rofi/config ~/.config/rofi/config
 #cp .fehbg ~/.fehbg
 #cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
-#cp -r .wallpaper ~/.wallpaper 
