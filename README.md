@@ -21,8 +21,8 @@ After the script has finished running, reboot your system and select i3 from the
 ## Additional Informations
 ### Tmux
 Inside the [tmux configuration file](../main/.config/tmux/.tmux.conf) there are a few changes to the normal installation like colors and keyboard shortcuts.
-**controls**
-The contoles are changed fro "ctrl+b" to "ctrl+a".
+#### controls
+The contoles are changed for "ctrl+b" to "ctrl+a".
 Here is a little Cheatsheet for the most important controls:
 - C + a + % -> new pane
 - C + a + "
@@ -31,3 +31,13 @@ Here is a little Cheatsheet for the most important controls:
 - C + a + 1,2,3,4,5 -> switch tab
 - C + a + , -> rename
 - C + a + & -> close window
+
+The support for mouse switching panes/windows is enables. If you have Problems with it just comment out the "set -g mouse on" inside the [.conf](../main/.config/tmux/.tmux.conf) file.
+
+If you want to have hjkl pane traversal like in vim, just add the following to the [config file](../main/.config/tmux/.tmux.conf):<br>
+```
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+```
