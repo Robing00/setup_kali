@@ -24,13 +24,13 @@ Inside the [tmux configuration file](../main/.config/tmux/.tmux.conf) there are 
 #### controls
 The contoles are changed for "ctrl+b" to "ctrl+a".
 Here is a little Cheatsheet for the most important controls:
-- C + a + % -> new pane
+- C + a + %       -> new pane
 - C + a + "
-- C + a + o -> switch pane
-- C + a + c -> new tab 
-- C + a + 1,2,3,4,5 -> switch tab
-- C + a + , -> rename
-- C + a + & -> close window
+- C + a + o       -> switch pane
+- C + a + c       -> new tab 
+- C + a + 1,2,3.. -> switch tab
+- C + a + ,       -> rename
+- C + a + &       -> close window
 
 The support for mouse switching panes/windows is enables. If you have Problems with it just comment out the "set -g mouse on" inside the [.conf](../main/.config/tmux/.tmux.conf) file.
 
